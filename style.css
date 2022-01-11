@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+}
+
+.card {
+  background-image: url("imagens/back4.jpg");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+  padding: 1px 20px;
+  padding-bottom: 230px;
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+  background-size: cover;
+  margin: auto;
+}
+
+.instagram {
+  list-style-image: url("imagens/instagram1.png");
+  font-size: 20px;
+}
+
+.linkedin {
+  list-style-image: url("imagens/linkedin1.png");
+  font-size: 20px;
+}
+
+.github {
+  list-style-image: url("imagens/github1.png");
+  font-size: 20px;
+}
+
+.instagram:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  text-shadow: black;
+}
+
+.linkedin:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.github:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.teste {
+  display: inline-block;
+}
